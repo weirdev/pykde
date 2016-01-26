@@ -1,1 +1,5 @@
-# Dummy file so python knows this is a package
+from . import pykde
+from .pykde import *
+
+__all__ = []
+__all__.extend(pykde.__all__)
